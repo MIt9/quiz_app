@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "question": "Що таке Dart Isolate?",
+    "options": [
+      "Окремий потік з власною пам'яттю та event loop",
+      "Клас для ізоляції даних від зовнішнього доступу",
+      "Механізм dependency injection у Flutter",
+      "Спосіб ізолювати Widget дерево"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "2",
+    "question": "Яка різниця між StatelessWidget та StatefulWidget?",
+    "options": [
+      "StatelessWidget швидший за StatefulWidget",
+      "StatefulWidget має об'єкт State, який може змінюватися під час lifecycle",
+      "StatelessWidget не може мати дочірніх widgets",
+      "StatefulWidget завжди перебудовується при будь-яких змінах у дереві"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "3",
+    "question": "Що робить оператор '??' в Dart?",
+    "options": [
+      "Перевіряє чи значення є null та кидає exception",
+      "Повертає перший операнд якщо він не null, інакше другий",
+      "Виконує nullable cast",
+      "Оголошує nullable тип"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "4",
+    "question": "Що таке BuildContext у Flutter?",
+    "options": [
+      "Клас для збереження стану між перебудовами",
+      "Конфігурація для MaterialApp",
+      "Посилання на місце widget у дереві, дає доступ до теми, Navigator та Provider",
+      "Об'єкт для керування анімаціями"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "5",
+    "question": "Який патерн використовує Provider для управління станом?",
+    "options": [
+      "Singleton",
+      "Observer / InheritedWidget",
+      "Factory",
+      "Repository"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "6",
+    "question": "Що таке Future в Dart?",
+    "options": [
+      "Колекція асинхронних подій",
+      "Обіцянка повернути значення у майбутньому (одноразово)",
+      "Спосіб запустити код паралельно в Isolate",
+      "Аналог Thread у Java"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "7",
+    "question": "Коли використовувати const constructor у Flutter?",
+    "options": [
+      "Тільки для Stateless widgets",
+      "Для об'єктів, значення яких відомі під час компіляції та не змінюються",
+      "Для всіх widgets без виключення",
+      "Тільки для рядкових літералів"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "8",
+    "question": "Що таке mixin в Dart?",
+    "options": [
+      "Аналог interface з обов'язковою реалізацією",
+      "Спосіб успадкування від кількох класів одночасно",
+      "Набір методів та властивостей, що можна додати до класу без успадкування",
+      "Декоратор для класів"
+    ],
+    "correct_index": 2
+  }
+]
